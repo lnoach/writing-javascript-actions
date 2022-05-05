@@ -17,6 +17,10 @@ inputs:
     description: "a third greeting"
     required: false
 
+outputs:
+  joke-output:
+    description: The resulting joke
+
 runs:
   using: "node12"
   main: "main.js"
