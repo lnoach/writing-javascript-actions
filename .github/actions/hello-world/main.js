@@ -9,3 +9,5 @@ console.log(`Hello ${secondGreeting}`);
 if (thirdGreeting) {
     console.log(`Hello ${thirdGreeting}`);
 }
+
+core.setOutput("joke-output", "AAAA a good joke "+Math.random());
